@@ -31,9 +31,9 @@ describe("Create a user", () => {
   });
 
   it("should not be able to create a user with exists email", async () => {
-    const user1 = {
-      name: "Antonio Carlos",
-      email: "antonio@gmail.com",
+    const user1: ICreateUserDTO = {
+      name: "Lucas Antonio",
+      email: "lucas@gmail.com",
       password: "12345",
     };
 

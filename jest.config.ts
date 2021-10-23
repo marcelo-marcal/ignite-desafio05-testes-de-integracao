@@ -1,8 +1,3 @@
-/*
- * For a detailed explanation regarding each configuration property and type check, visit:
- * https://jestjs.io/docs/configuration
- */
-
 import { pathsToModuleNameMapper } from "ts-jest/utils";
 
 import { compilerOptions } from "./tsconfig.json";
@@ -24,7 +19,7 @@ export default {
   collectCoverage: true,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-  collectCoverageFrom: ["<rootDir>/src/modules/**/useCases/**/*UseCase.ts"],
+  collectCoverageFrom: ["<rootDir>/src/modules/**/useCases/**/*.ts"],
 
   // The directory where Jest should output its coverage files
   coverageDirectory: "coverage",
@@ -72,10 +67,10 @@ export default {
   // An array of file extensions your modules use
   // moduleFileExtensions: [
   //   "js",
+  //   "json",
   //   "jsx",
   //   "ts",
   //   "tsx",
-  //   "json",
   //   "node"
   // ],
 
@@ -128,6 +123,7 @@ export default {
   // The paths to modules that run some code to configure or set up the testing environment before each test
   setupFiles: ["dotenv/config", "reflect-metadata"],
 
+
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   // setupFilesAfterEnv: [],
 
@@ -161,7 +157,7 @@ export default {
   // testResultsProcessor: undefined,
 
   // This option allows use of a custom test runner
-  // testRunner: "jest-circus/runner",
+  // testRunner: "jasmine2",
 
   // This option sets the URL for the jsdom environment. It is reflected in properties such as location.href
   // testURL: "http://localhost",
