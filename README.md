@@ -35,6 +35,11 @@ src/modules/users/useCases/showUserProfile/ShowUserProfileController.spec.ts
 3 - yarn test
 
 
+<h1 align="center">
+    <img src="./img/img007.png" />
+</h1>
+
+
 ## Rotas da aplicação
 
 Para te ajudar a entender melhor o funcionamento da aplicação como um todo, abaixo você verá uma descrição de cada rota e quais parâmetros recebe.
