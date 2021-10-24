@@ -36,7 +36,7 @@ src/modules/users/useCases/showUserProfile/ShowUserProfileController.spec.ts
 
 
 <h1 align="center">
-    <img src="./img/img007.png" />
+    <img src="./img/testes-de-integracao.png" />
 </h1>
 
 
